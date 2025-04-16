@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+
+* {
+  scroll-behavior: smooth
+}
+
+@theme {
+
+  --font-family: "Orbitron", sans-serif;
+  --font-Montserrat: "Montserrat", sans-serif;
+
+
+  --color-primary: #ff5252;
+
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-[95%] mx-auto px-5 md:px-5 lg:px-10 xl:max-w-[75%];
+  }
+}
